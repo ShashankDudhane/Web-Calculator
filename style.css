@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.calcultor{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 25%;
+   height: 90%;
+   margin-top: 2rem;
+   background-image: linear-gradient(60deg, #13161a 0%, #2c3138 100%);
+   box-shadow: 8px 8px 8px rgb(99, 98, 98);
+   border-radius: 10px;
+}
+
+input{
+    background: transparent; 
+    padding:1.5rem 1.6rem;
+    width: 78%;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight:700;
+}
+input::placeholder{
+    color: white;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+
+.row{
+  
+    display: flex;
+    justify-content: center;
+    
+}
+
+button{
+    background: transparent;
+    margin: 0.7rem 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    box-shadow:-2.5px -2px 8px rgb(99, 98, 98) ;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.operation{
+   color: rgb(8, 175, 8);
+}
+
+#mod,#minus,#plus,#divide,#multiply,#dot{
+    font-size: 1.2rem;
+}
+
+#equal{
+    background-color: rgb(206, 135, 3);
+    color: white;
+}
