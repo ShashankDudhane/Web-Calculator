@@ -1,1 +1,2 @@
 # Web-Calculator
+A calculator project using HTML, CSS, and JavaScript is a fundamental yet powerful way to learn and practice front-end development. This project involves creating a functional calculator that performs basic arithmetic operations like addition, subtraction, multiplication, division, and modulus. Additionally, it includes features like delete (to remove the last input) and all clear (to reset the calculator).
